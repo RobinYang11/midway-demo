@@ -3,7 +3,12 @@
 
 <!-- add docs here for user -->
 
-see [midway docs][midway] for more detail.
+### 分支说明
+```bash
+  master  生成分支
+  dev 迭代分支
+  dev-robin 开发分支
+```
 
 ### 开发
 
