@@ -1,20 +1,29 @@
-# my_midway_project
+# 开发说明
 
-## QuickStart
 
 <!-- add docs here for user -->
 
-see [midway docs][midway] for more detail.
+### 分支说明
+```bash
+  master  生成分支
+  dev 迭代分支
+  dev-robin 开发分支
+```
 
-### Development
+### 开发
 
 ```bash
 $ npm i
 $ npm run dev
 $ open http://localhost:7001/
 ```
+### 测试
 
-### Deploy
+```bash
+ npm run test
+```
+
+### 正是环境部署 
 
 ```bash
 $ npm start
