@@ -48,7 +48,7 @@ export class UserController {
   async addUser(@Body() userDto: UserDto): Promise<Result> {
 
     try {
-      const user = this.userModel.addUser(userDto)
+      const user = await this.userModel.addUser(userDto)
       // throw new Error("测试异常")
       return {
         code: 200,
