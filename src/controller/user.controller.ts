@@ -34,6 +34,12 @@ export class UserController {
             token: user.id
           }
         }
+      } else {
+        return {
+          code: 400,
+          message: "用户名或密码错误",
+          result: "登录失败",
+        }
       }
     } catch (e) {
       return {
